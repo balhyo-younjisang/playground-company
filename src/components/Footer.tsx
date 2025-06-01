@@ -1,53 +1,51 @@
 'use client';
 
 import Link from 'next/link';
-import { useLanguage } from '@/contexts/LanguageContext';
+import { Dictionary } from '@/lib/dictionary';
 
-const INFO = {
-  ko: {
-    privacy: '개인정보처리방침',
-    company: 'PLAYGROUND',
-    address: '서울특별시 성북구 정릉로 52길 42 5층',
-    ceo: '대표이사 : 윤지상',
-    reg: '사업자등록번호 : 142-33-01524',
-    email: 'Email : ',
-    copyright: 'Copyright © PLAYGROUND. All Rights Reserved.'
-  },
-  en: {
-    privacy: 'Privacy Policy',
-    company: 'PLAYGROUND',
-    address: '5F, 42, Jeongneung-ro 52-gil, Seongbuk-gu, Seoul, Republic of Korea',
-    ceo: 'CEO: Jisang Yoon',
-    reg: 'Business Registration No.: 142-33-01524',
-    email: 'Email: ',
-    copyright: 'Copyright © PLAYGROUND. All Rights Reserved.'
-  }
-};
+interface FooterProps {
+  dict: Dictionary;
+}
 
-export default function Footer() {
-  const { language } = useLanguage();
-  const t = INFO[language] || INFO.ko;
-
+export default function Footer({ dict }: FooterProps) {
   return (
-    <footer className="border-t bg-white dark:bg-gray-900 py-8 px-4 text-gray-700 dark:text-gray-300 text-sm">
-      <div className="max-w-5xl mx-auto flex flex-col gap-2">
-        <div className="flex justify-end mb-2">
-          <Link href="/privacy-policy" className="hover:underline text-primary font-semibold">{t.privacy}</Link>
+    <footer className="bg-gray-900 text-white">
+      <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h3 className="text-lg font-semibold mb-4">{dict.footer.company}</h3>
+            <p className="text-gray-400">{dict.footer.description}</p>
+            <div className="mt-4 space-y-2 text-gray-400">
+              <p>{dict.footer.address}</p>
+              <p>{dict.footer.ceo}</p>
+              <p>{dict.footer.registration}</p>
+            </div>
+          </div>
+          
+          <div>
+            <h3 className="text-lg font-semibold mb-4">{dict.footer.links}</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/terms-and-conditions" className="text-gray-400 hover:text-white transition-colors">
+                  Terms and Conditions
+                </Link>
+              </li>
+              <li>
+                <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 className="text-lg font-semibold mb-4">{dict.footer.contact}</h3>
+            <p className="text-gray-400">{dict.footer.email}</p>
+          </div>
         </div>
-        <div className="flex items-center gap-2 mb-2">
-          <span className="font-bold text-xl text-primary">{t.company}</span>
-        </div>
-        <div className="flex flex-wrap gap-x-2 gap-y-1 items-center">
-          <span>{t.address}</span>
-          <span className="hidden md:inline">|</span>
-          <span>{t.ceo}</span>
-          <span className="hidden md:inline">|</span>
-          <span>{t.reg}</span>
-          <span className="hidden md:inline">|</span>
-          <span>{t.email}<a href="mailto:contact@yunjisang.me" className="hover:underline text-primary">contact@yunjisang.me</a></span>
-        </div>
-        <div className="mt-2 text-gray-500 dark:text-gray-400">
-          {t.copyright}
+        
+        <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+          <p>&copy; {new Date().getFullYear()} PLAYGROUND. {dict.footer.rights}</p>
         </div>
       </div>
     </footer>

@@ -1,72 +1,72 @@
-export default function PrivacyPolicy() {
+export default function TermsAndConditions() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-8">
-          Privacy Policy
+          Terms and Conditions
         </h1>
         
         <div className="prose prose-lg max-w-none">
           <section className="mb-12">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-              Information Collection
+              Acceptance of Terms
             </h2>
             <p className="text-gray-600">
-              We collect information that you provide directly to us, such as when you create an account, use our services, or contact us. This may include your name, email address, and other contact information.
+              {`By accessing and using PLAYGROUND's services, you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.`}
             </p>
           </section>
 
           <section className="mb-12">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-              Information Usage
+              Services
             </h2>
             <p className="text-gray-600">
-              We use the information we collect to provide, maintain, and improve our services, to communicate with you, and to protect our users and the public.
+              PLAYGROUND provides various services including but not limited to software development, consulting, and technical solutions. We reserve the right to modify, suspend, or discontinue any aspect of our services at any time.
             </p>
           </section>
 
           <section className="mb-12">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-              Information Protection
+              Intellectual Property
             </h2>
             <p className="text-gray-600">
-              We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.
+              {`All content, designs, and intellectual property associated with PLAYGROUND's services are owned by PLAYGROUND and are protected by applicable copyright and intellectual property laws.`}
             </p>
           </section>
 
           <section className="mb-12">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-              Cookies and Similar Technologies
+              Privacy
             </h2>
             <p className="text-gray-600">
-              We use cookies and similar technologies to collect information about your browsing activities and to distinguish you from other users of our website.
+              Your privacy is important to us. Our Privacy Policy explains how we collect, use, and protect your personal information. By using our services, you agree to our Privacy Policy.
             </p>
           </section>
 
           <section className="mb-12">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-              Your Rights
+              Limitation of Liability
             </h2>
             <p className="text-gray-600">
-              You have the right to access, correct, or delete your personal information. You may also have the right to restrict or object to certain processing of your information.
+              PLAYGROUND shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use our services.
             </p>
           </section>
 
           <section className="mb-12">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-              Changes to Privacy Policy
+              Changes to Terms
             </h2>
             <p className="text-gray-600">
-              We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page.
+              We reserve the right to modify these terms at any time. We will notify users of any material changes by posting the new terms on our website.
             </p>
           </section>
 
           <section className="mb-12">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-              Contact Us
+              Contact Information
             </h2>
             <p className="text-gray-600">
-              If you have any questions about this Privacy Policy, please contact us at contact@yunjisang.me.
+              If you have any questions about these Terms and Conditions, please contact us at contact@yunjisang.me.
             </p>
           </section>
         </div>

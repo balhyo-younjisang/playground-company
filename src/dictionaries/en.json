@@ -1,0 +1,81 @@
+{
+  "terms": {
+    "title": "Terms and Conditions",
+    "description": "Terms and conditions for using PLAYGROUND services",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing and using PLAYGROUND's services, you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services."
+      },
+      "services": {
+        "title": "Services",
+        "content": "PLAYGROUND provides various services including but not limited to software development, consulting, and technical solutions. We reserve the right to modify, suspend, or discontinue any aspect of our services at any time."
+      },
+      "intellectual": {
+        "title": "Intellectual Property",
+        "content": "All content, designs, and intellectual property associated with PLAYGROUND's services are owned by PLAYGROUND and are protected by applicable copyright and intellectual property laws."
+      },
+      "privacy": {
+        "title": "Privacy",
+        "content": "Your privacy is important to us. Our Privacy Policy explains how we collect, use, and protect your personal information. By using our services, you agree to our Privacy Policy."
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "PLAYGROUND shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use our services."
+      },
+      "changes": {
+        "title": "Changes to Terms",
+        "content": "We reserve the right to modify these terms at any time. We will notify users of any material changes by posting the new terms on our website."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "content": "If you have any questions about these Terms and Conditions, please contact us at contact@yunjisang.me."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "Privacy policy for PLAYGROUND services",
+    "sections": {
+      "collection": {
+        "title": "Information Collection",
+        "content": "We collect information that you provide directly to us, such as when you create an account, use our services, or contact us. This may include your name, email address, and other contact information."
+      },
+      "usage": {
+        "title": "Information Usage",
+        "content": "We use the information we collect to provide, maintain, and improve our services, to communicate with you, and to protect our users and the public."
+      },
+      "protection": {
+        "title": "Information Protection",
+        "content": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+      },
+      "cookies": {
+        "title": "Cookies and Similar Technologies",
+        "content": "We use cookies and similar technologies to collect information about your browsing activities and to distinguish you from other users of our website."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "You have the right to access, correct, or delete your personal information. You may also have the right to restrict or object to certain processing of your information."
+      },
+      "changes": {
+        "title": "Changes to Privacy Policy",
+        "content": "We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at contact@yunjisang.me."
+      }
+    }
+  },
+  "footer": {
+    "company": "PLAYGROUND",
+    "description": "Building the future of technology",
+    "contact": "Contact",
+    "email": "Email: contact@yunjisang.me",
+    "links": "Quick Links",
+    "rights": "All rights reserved",
+    "address": "Address: 5F, Donam Goldview, 42 Jeongneung-ro 52-gil, Seongbuk-gu, Seoul",
+    "ceo": "CEO: Yunjisang",
+    "registration": "Business Registration No.: 142-33-01524"
+  }
+} 
