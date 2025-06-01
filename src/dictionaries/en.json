@@ -67,6 +67,32 @@
       }
     }
   },
+  "refund": {
+    "title": "Refund Policy",
+    "description": "Refund policy for PLAYGROUND services",
+    "sections": {
+      "general": {
+        "title": "General Policy",
+        "content": "We strive to ensure complete satisfaction with our services. If you are not satisfied with our service, you may be eligible for a refund under certain conditions."
+      },
+      "eligibility": {
+        "title": "Refund Eligibility",
+        "content": "Refunds may be granted within 14 days of purchase if the service has not been substantially used or if there are technical issues preventing service usage. Custom development projects may have different refund terms as specified in the project agreement."
+      },
+      "process": {
+        "title": "Refund Process",
+        "content": "To request a refund, please contact us at contact@yunjisang.me with your order details and reason for the refund. We will review your request and respond within 5 business days."
+      },
+      "exceptions": {
+        "title": "Exceptions",
+        "content": "Refunds may not be available for services that have been fully delivered or for custom development work that has been completed according to the agreed specifications."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about our refund policy, please contact us at contact@yunjisang.me."
+      }
+    }
+  },
   "footer": {
     "company": "PLAYGROUND",
     "description": "Building the future of technology",

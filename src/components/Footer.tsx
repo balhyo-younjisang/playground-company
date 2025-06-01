@@ -35,6 +35,11 @@ export default function Footer({ dict }: FooterProps) {
                   Privacy Policy
                 </Link>
               </li>
+              <li>
+                <Link href="/refund-policy" className="text-gray-400 hover:text-white transition-colors">
+                  Refund Policy
+                </Link>
+              </li>
             </ul>
           </div>
           
